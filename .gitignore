@@ -1,0 +1,26 @@
+# Segredos — as keys ficam em ~/.config/watch/.env, nunca no repositório
+.env
+.env.*
+*.env
+cookies*.txt
+*.cookies
+
+# Python
+__pycache__/
+*.pyc
+
+# Saídas de execução
+watch-*/
+*.mp4
+*.webm
+*.mkv
+*.mp3
+*.m4a
+*.vtt
+frame_*.jpg
+
+# Build
+dist/
+*.skill
+
+.DS_Store
